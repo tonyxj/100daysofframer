@@ -473,25 +473,27 @@ h1 {
 }
 /* line 26, ../sass/main.scss */
 h1 span {
-  margin-top: 0.5rem;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+  letter-spacing: 1px;
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Jaldi";
-  font-weight: 600;
-  opacity: 0.5;
+  font-weight: 400;
+  opacity: 0.55;
 }
-/* line 33, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 h1 span a {
   text-decoration: none;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .wrapper {
   width: 100%;
   padding: 1rem 10vw 5rem;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 iframe {
   width: 80vw;
   height: 650px;
@@ -499,20 +501,20 @@ iframe {
   margin: 1rem 0 3rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 44, ../sass/main.scss */
+  /* line 46, ../sass/main.scss */
   iframe {
     display: none;
   }
 }
 
-/* line 54, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-bottom: 0;
   opacity: 0.75;
 }
 
-/* line 60, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 h3 {
   font-size: 1.8rem;
   margin-top: -1rem;
@@ -520,32 +522,32 @@ h3 {
   font-weight: normal;
 }
 
-/* line 67, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 p {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   margin-top: -1rem;
-  width: 39%;
-  line-height: 1.5rem;
+  width: 41%;
+  line-height: 1.6rem;
 }
-/* line 72, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 p a {
   opacity: 0.5;
   text-decoration: none;
 }
 @media screen and (max-width: 680px) {
-  /* line 67, ../sass/main.scss */
+  /* line 69, ../sass/main.scss */
   p {
     width: 100%;
   }
 }
 
-/* line 81, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 .proto-link {
   display: none;
   opacity: 0.5;
 }
 @media screen and (max-width: 680px) {
-  /* line 81, ../sass/main.scss */
+  /* line 83, ../sass/main.scss */
   .proto-link {
     display: block;
   }

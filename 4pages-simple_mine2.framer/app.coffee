@@ -10,7 +10,7 @@ allBg = []
 page = new PageComponent
 	width: Screen.width, height: Screen.height
 	scrollVertical: false
-	backgroundColor: "rgba(0,0,0,0.4)"
+	backgroundColor: "rgba(0,0,0,0.2)"
 
 # Create a for loop for the number of new layers in the page component
 for i in [0...amount]
@@ -25,7 +25,7 @@ for i in [0...amount]
 		backgroundColor: "none"
 	
 	bg.states.add(active: {opacity: 1})
-	bg.states.animationOptions =  curve: "spring(480, 22, 0)"
+	bg.states.animationOptions =  time: 0.3
 	
 	card = new Layer
 		html: i
@@ -35,11 +35,11 @@ for i in [0...amount]
 		height:  page.height - (marginVer * 2)
 		x: (page.width + marginHor) * (i + 1) 
 		y: 150
-		opacity: 0.3
+		opacity: 0.7
 		scale: 0.6
 		shadowY: 10
 		shadowBlur: 10
-		shadowColor: "rgba(0,0,0,0.3)"
+		shadowColor: "rgba(0,0,0,0.8)"
 		# Very important these layers be added the "page" PageComponent
 		superLayer: page.content
 	
@@ -85,12 +85,12 @@ for card in allCards
 			scale: 0.8
 			shadowY: 10
 			shadowBlur: 10
-			shadowColor: "rgba(0,0,0,0.3)"
+			shadowColor: "rgba(0,0,0,0.8)"
 			opacity: 0.95
 		active:
 			shadowY: 50
 			shadowBlur: 80
-			shadowColor: "rgba(0,0,0,0.5)"
+			shadowColor: "rgba(0,0,0,0.97)"
 			opacity: 1
 			scale: 1.1
 		
