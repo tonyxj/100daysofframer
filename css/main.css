@@ -445,24 +445,24 @@ textarea {
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
-/* line 6, ../sass/main.scss */
+/* line 8, ../sass/main.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 11, ../sass/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 body {
   font-size: 17px;
   background-color: rgba(211, 211, 211, 0.1);
   font-family: "Jaldi";
 }
 
-/* line 19, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 h1 {
   font-family: "Playfair Display";
   padding: 5rem 10vw;
@@ -471,7 +471,7 @@ h1 {
   margin: 0;
   color: #111;
 }
-/* line 26, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 h1 span {
   text-transform: uppercase;
   margin-top: 0.3rem;
@@ -482,18 +482,18 @@ h1 span {
   font-weight: 400;
   opacity: 0.55;
 }
-/* line 35, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 h1 span a {
   text-decoration: none;
 }
 
-/* line 41, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .wrapper {
   width: 100%;
   padding: 1rem 10vw 5rem;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 iframe {
   width: 80vw;
   height: 650px;
@@ -501,53 +501,60 @@ iframe {
   margin: 1rem 0 3rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 46, ../sass/main.scss */
+  /* line 48, ../sass/main.scss */
   iframe {
     display: none;
   }
 }
 
-/* line 56, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 h2 {
   font-size: 2.6rem;
   margin-bottom: 0;
   opacity: 0.75;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 h3 {
   font-size: 1.8rem;
   margin-top: -1rem;
   opacity: 0.3;
   font-weight: normal;
 }
+@media screen and (max-width: 680px) {
+  /* line 64, ../sass/main.scss */
+  h3 {
+    margin-top: -0.3rem;
+    line-height: 2.2rem;
+  }
+}
 
-/* line 69, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 p {
   font-size: 1.25rem;
   margin-top: -1rem;
   width: 41%;
   line-height: 1.6rem;
 }
-/* line 74, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 p a {
   opacity: 0.5;
   text-decoration: none;
 }
 @media screen and (max-width: 680px) {
-  /* line 69, ../sass/main.scss */
+  /* line 75, ../sass/main.scss */
   p {
     width: 100%;
   }
 }
 
-/* line 83, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 .proto-link {
   display: none;
   opacity: 0.5;
 }
 @media screen and (max-width: 680px) {
-  /* line 83, ../sass/main.scss */
+  /* line 89, ../sass/main.scss */
   .proto-link {
     display: block;
   }
