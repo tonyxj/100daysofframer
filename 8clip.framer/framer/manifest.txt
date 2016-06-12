@@ -1,11 +1,4 @@
 app.coffee
-framer/backups/backup-2016-06-11 15.25.40.coffee
-framer/backups/backup-2016-06-11 15.26.40.coffee
-framer/backups/backup-2016-06-11 15.27.40.coffee
-framer/backups/backup-2016-06-11 15.28.40.coffee
-framer/backups/backup-2016-06-11 15.29.40.coffee
-framer/backups/backup-2016-06-11 15.31.40.coffee
-framer/backups/backup-2016-06-11 15.32.40.coffee
 framer/backups/backup-2016-06-11 15.33.40.coffee
 framer/backups/backup-2016-06-11 15.34.40.coffee
 framer/backups/backup-2016-06-11 15.35.40.coffee
@@ -20,6 +13,13 @@ framer/backups/backup-2016-06-11 16.41.39.coffee
 framer/backups/backup-2016-06-11 16.43.39.coffee
 framer/backups/backup-2016-06-11 16.44.39.coffee
 framer/backups/backup-2016-06-11 16.45.39.coffee
+framer/backups/backup-2016-06-11 17.11.38.coffee
+framer/backups/backup-2016-06-11 18.20.38.coffee
+framer/backups/backup-2016-06-11 18.21.38.coffee
+framer/backups/backup-2016-06-11 18.22.38.coffee
+framer/backups/backup-2016-06-11 18.23.38.coffee
+framer/backups/backup-2016-06-11 18.24.38.coffee
+framer/backups/backup-2016-06-11 18.25.38.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js

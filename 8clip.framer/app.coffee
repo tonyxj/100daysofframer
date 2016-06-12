@@ -1,6 +1,8 @@
 # Import file "day5"
 sketch = Framer.Importer.load("imported/day5@1x")
 
+Framer.Device.background.backgroundColor = "#39eed1"
+
 albumCover = new Layer
 	width: Screen.width
 	height: 800
