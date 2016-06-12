@@ -1,25 +1,25 @@
 app.coffee
-framer/backups/backup-2016-06-10 22.56.24.coffee
-framer/backups/backup-2016-06-10 22.57.24.coffee
-framer/backups/backup-2016-06-10 22.58.24.coffee
-framer/backups/backup-2016-06-10 22.59.24.coffee
-framer/backups/backup-2016-06-10 23.00.24.coffee
-framer/backups/backup-2016-06-10 23.01.24.coffee
-framer/backups/backup-2016-06-10 23.02.24.coffee
-framer/backups/backup-2016-06-10 23.04.24.coffee
-framer/backups/backup-2016-06-10 23.05.24.coffee
-framer/backups/backup-2016-06-10 23.06.24.coffee
-framer/backups/backup-2016-06-10 23.07.24.coffee
-framer/backups/backup-2016-06-10 23.35.24.coffee
-framer/backups/backup-2016-06-10 23.38.24.coffee
-framer/backups/backup-2016-06-10 23.39.24.coffee
-framer/backups/backup-2016-06-10 23.50.24.coffee
-framer/backups/backup-2016-06-10 23.51.24.coffee
-framer/backups/backup-2016-06-10 23.52.24.coffee
-framer/backups/backup-2016-06-10 23.53.24.coffee
-framer/backups/backup-2016-06-10 23.54.24.coffee
-framer/backups/backup-2016-06-10 23.55.24.coffee
-framer/backups/backup-2016-06-10 23.56.24.coffee
+framer/backups/backup-2016-06-11 15.25.40.coffee
+framer/backups/backup-2016-06-11 15.26.40.coffee
+framer/backups/backup-2016-06-11 15.27.40.coffee
+framer/backups/backup-2016-06-11 15.28.40.coffee
+framer/backups/backup-2016-06-11 15.29.40.coffee
+framer/backups/backup-2016-06-11 15.31.40.coffee
+framer/backups/backup-2016-06-11 15.32.40.coffee
+framer/backups/backup-2016-06-11 15.33.40.coffee
+framer/backups/backup-2016-06-11 15.34.40.coffee
+framer/backups/backup-2016-06-11 15.35.40.coffee
+framer/backups/backup-2016-06-11 15.36.40.coffee
+framer/backups/backup-2016-06-11 15.37.40.coffee
+framer/backups/backup-2016-06-11 15.38.40.coffee
+framer/backups/backup-2016-06-11 15.39.40.coffee
+framer/backups/backup-2016-06-11 15.40.40.coffee
+framer/backups/backup-2016-06-11 15.41.40.coffee
+framer/backups/backup-2016-06-11 16.38.39.coffee
+framer/backups/backup-2016-06-11 16.41.39.coffee
+framer/backups/backup-2016-06-11 16.43.39.coffee
+framer/backups/backup-2016-06-11 16.44.39.coffee
+framer/backups/backup-2016-06-11 16.45.39.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -52,8 +52,10 @@ framer/style.css
 framer/version
 images/albumCover.jpg
 images/artworks-000166488956-ny228o-t500x500.jpg
+images/icons.png
 images/songList.png
 images/title.png
+images/track.png
 imported/day5@1x/images/Layer-b1-qjmynjzg.png
 imported/day5@1x/images/Layer-b2-mzcyn0vb.png
 imported/day5@1x/images/Layer-l1-mki1mzdf.png

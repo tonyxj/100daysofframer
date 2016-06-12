@@ -9,7 +9,7 @@ albumCover = new Layer
 albumTitle = new Layer
 	width: Screen.width
 	height: 900
-	y: 510
+	y: 496
 	backgroundColor: "#fff"
 
 albumTitleGradient = new Layer
@@ -114,10 +114,131 @@ sketch.b1.centerY()
 sketch.b1.x = 492
 sketch.b1.scale = 0.65
 
+songListD = new Layer
+	width: 762
+	height: 635
+	scale: 0.85
+	superLayer: albumTitle
+	x: -12
+	y: 195
+	image: "images/songList.png"
+
+title = new Layer
+	width: 421
+	height: 107
+	x: 45
+	y: 478
+	image: "images/title.png"
+
+track = new Layer
+	width: 462
+	height: 39
+	scale: 0.7
+	x: 156
+	y: 53
+	superLayer: container
+	opacity: 0
+	image: "images/track.png"
+
+icons = new Layer
+	width: 1436
+	height: 77
+	scale: 0.45
+	y: 300
+	x: -339
+	superLayer: container
+	opacity: 0
+	image: "images/icons.png"
+
+timeLine = new Layer
+	width: Screen.width
+	height: 30
+	y: 0
+	opacity: 0
+	superLayer: container
+	style:
+		paddingLeft: "680px"
+	backgroundColor: "rgba(0,0,0, 0.08)"
+	
+currentTime = new Layer
+	width: 200
+	height: 30
+	html: "0:00"
+	x: -135
+	y: 0
+	superLayer: timeLine
+	style: 
+		background: "linear-gradient(90deg, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.18) 100%)"
+		color: "rgba(255,255,255,0.65)"
+		fontSize: "1.5rem"
+		paddingTop: "2px"
+		textAlign: "right"
+		paddingRight: "8px"
+		
 
 animateMove = true
+
+time = 0
+Utils.interval 1, ->
+	time += 1
+
 button.onClick ->
 	if animateMove
+	
+		albumTitle.animate
+			properties: 
+				y: 790
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.6
+			
+		title.animate
+			properties: 
+				scale: 0.8
+				x: -3
+				y: 575
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.6
+			
+		track.animate
+			delay: 0.8
+			properties: 
+				opacity: 0.8
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+		
+		icons.animate
+			delay: 0.8
+			properties: 
+				opacity: 0.7
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+		
+		time = 0
+		
+		Utils.interval 1, ->
+			if time <= 9
+				currentTime.html= "0:0" + time
+			else if (time > 9 && time <= 44)
+				currentTime.html= "0:" + time
+			if time >= 45
+				currentTime.html= "0:45"
+		
+		currentTime.animate
+			delay: 0.8
+			properties: 
+				x: Screen.width - 200
+			curve: "linear"
+			time: 45
+		
+		timeLine.animate
+			delay: 0.8
+			properties: 
+				opacity: 1
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+			
+			
+		
 		button.animate
 			delay: 0.5
 			properties: 
@@ -190,6 +311,48 @@ button.onClick ->
 		animateMove = false
 		
 	else
+		albumTitle.animate
+			delay: 0.5
+			properties: 
+				y: 496
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.6
+			
+		title.animate
+			delay: 0.5
+			properties: 
+				scale: 1
+				x: 45
+				y: 478
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.6
+			
+		track.animate
+			properties: 
+				opacity: 0
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+		
+		icons.animate
+			properties: 
+				opacity: 0
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+		
+		currentTime.animate
+				delay: 0.8
+				properties: 
+					x: -135
+				curve: "linear"
+				time: 0.5
+		
+		timeLine.animate
+			properties: 
+				opacity: 0
+			curve: "cubic-bezier(0.4, 0, 0.2, 1)"
+			time: 0.3
+			
+	
 		sketch.n2.animate
 			properties: 
 				x: 41
@@ -260,18 +423,3 @@ button.onClick ->
 
 
 
-songListD = new Layer
-	width: 762
-	height: 635
-	scale: 0.85
-	superLayer: albumTitle
-	x: -12
-	y: 220
-	image: "images/songList.png"
-
-title = new Layer
-	width: 421
-	height: 107
-	x: 50
-	y: 520
-	image: "images/title.png"
