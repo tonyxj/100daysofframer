@@ -1,5 +1,4 @@
 app.coffee
-framer/backups/backup-2016-06-14 19.31.00.coffee
 framer/backups/backup-2016-06-14 19.31.59.coffee
 framer/backups/backup-2016-06-14 19.34.59.coffee
 framer/backups/backup-2016-06-14 19.49.56.coffee
@@ -20,6 +19,7 @@ framer/backups/backup-2016-06-14 20.03.56.coffee
 framer/backups/backup-2016-06-14 20.04.56.coffee
 framer/backups/backup-2016-06-14 20.05.56.coffee
 framer/backups/backup-2016-06-14 20.06.56.coffee
+framer/backups/backup-2016-06-14 20.07.56.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -52,7 +52,6 @@ framer/preview.png
 framer/style.css
 framer/version
 images/nytimes.png
-images/obama (1).mp4
 images/obama.mp4
 index.html
 modules/myModule.coffee
