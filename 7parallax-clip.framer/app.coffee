@@ -1,6 +1,5 @@
 Framer.Defaults.Animation = curve: "spring(320,45,0)"
 
-
 bg = new Layer
 	image: "images/1.jpg"
 	width: Screen.width
