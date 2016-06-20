@@ -1,0 +1,148 @@
+app.coffee
+framer/backups/backup-2016-06-19 21.18.32.coffee
+framer/backups/backup-2016-06-19 21.19.31.coffee
+framer/backups/backup-2016-06-19 21.20.31.coffee
+framer/backups/backup-2016-06-19 21.21.31.coffee
+framer/backups/backup-2016-06-19 21.22.31.coffee
+framer/backups/backup-2016-06-19 21.24.31.coffee
+framer/backups/backup-2016-06-19 21.25.31.coffee
+framer/backups/backup-2016-06-19 21.27.31.coffee
+framer/backups/backup-2016-06-19 21.28.32.coffee
+framer/backups/backup-2016-06-19 21.29.31.coffee
+framer/backups/backup-2016-06-19 21.30.31.coffee
+framer/backups/backup-2016-06-19 21.45.31.coffee
+framer/backups/backup-2016-06-19 21.49.31.coffee
+framer/backups/backup-2016-06-19 21.51.31.coffee
+framer/backups/backup-2016-06-19 21.53.31.coffee
+framer/backups/backup-2016-06-19 21.54.31.coffee
+framer/backups/backup-2016-06-19 21.56.31.coffee
+framer/backups/backup-2016-06-19 21.58.31.coffee
+framer/backups/backup-2016-06-19 21.59.31.coffee
+framer/backups/backup-2016-06-19 22.00.31.coffee
+framer/backups/backup-2016-06-19 22.01.31.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+images/1.jpg
+images/2.jpg
+images/3.jpg
+images/4.jpg
+imported/nytvr@1x/images/Layer-back-rkfgqjve.png
+imported/nytvr@1x/images/Layer-Group-mza3njjb.png
+imported/nytvr@1x/images/Layer-line-otexqkiy.png
+imported/nytvr@1x/images/Layer-options-njq4nzy1.png
+imported/nytvr@1x/images/Layer-question-rdkxqjle.png
+imported/nytvr@1x/images/Layer-share1-quvgmjy0.png
+imported/nytvr@1x/images/Layer-share2-mtlgqtky.png
+imported/nytvr@1x/images/Layer-share3-nkexnzqy.png
+imported/nytvr@1x/images/Layer-share4-nzy3qzm2.png
+imported/nytvr@1x/images/Layer-t1-rji2mzbe.png
+imported/nytvr@1x/images/Layer-t2-mjewqje1.png
+imported/nytvr@1x/images/Layer-t3-rtdbmjiw.png
+imported/nytvr@1x/images/Layer-t4-nzhemuje.png
+imported/nytvr@1x/images/Layer-text1-muncntm3.png
+imported/nytvr@1x/images/Layer-text2-mje1nei2.png
+imported/nytvr@1x/images/Layer-text3-mtq4nufd.png
+imported/nytvr@1x/images/Layer-text4-q0qxreyx.png
+imported/nytvr@1x/layers.json
+imported/nytvr@1x/layers.json.js
+index.html
+modules/myModule.coffee
+modules/placehold.coffee
+node_modules/framer-googlefonts/app.coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/bar.js
+node_modules/framer-googlefonts/node_modules/coffeeify/example/bat.js
+node_modules/framer-googlefonts/node_modules/coffeeify/example/baz.coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/baz.litcoffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/error.coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/foo.coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/foo.litcoffee
+node_modules/framer-googlefonts/node_modules/coffeeify/example/multiline_error.coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/index.js
+node_modules/framer-googlefonts/node_modules/coffeeify/LICENSE
+node_modules/framer-googlefonts/node_modules/coffeeify/no-debug.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/.bin/cake
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/.bin/coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/bin/cake
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/bin/coffee
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/bower.json
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/CNAME
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/CONTRIBUTING.md
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/browser.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/cake.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/coffee-script.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/command.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/grammar.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/helpers.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/index.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/lexer.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/nodes.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/optparse.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/parser.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/register.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/repl.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/rewriter.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/scope.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/lib/coffee-script/sourcemap.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/LICENSE
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/package.json
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/README.md
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/register.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/coffee-script/repl.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/example/comment-to-json.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/index.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/LICENSE
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/package.json
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/README.md
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/comment-regex.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/convert-source-map.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/fixtures/map-file-comment-double-slash.css
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/fixtures/map-file-comment-inline.css
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/fixtures/map-file-comment.css
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/fixtures/map-file-comment.css.map
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/convert-source-map/test/map-file-comment.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/index.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/LICENSE.APACHE2
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/LICENSE.MIT
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/package.json
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/readme.markdown
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/test/async.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/test/auto-destroy.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/test/buffering.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/test/end.js
+node_modules/framer-googlefonts/node_modules/coffeeify/node_modules/through/test/index.js
+node_modules/framer-googlefonts/node_modules/coffeeify/package.json
+node_modules/framer-googlefonts/node_modules/coffeeify/readme.markdown
+node_modules/framer-googlefonts/node_modules/coffeeify/test/bundle.js
+node_modules/framer-googlefonts/node_modules/coffeeify/test/error.js
+node_modules/framer-googlefonts/node_modules/coffeeify/test/no-debug.js
+node_modules/framer-googlefonts/node_modules/coffeeify/test/transform.js
+node_modules/framer-googlefonts/package.json
+node_modules/framer-googlefonts/README.md
