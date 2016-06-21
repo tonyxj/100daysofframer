@@ -1,0 +1,73 @@
+app.coffee
+framer/backups/backup-2016-06-21 10.14.36.coffee
+framer/backups/backup-2016-06-21 10.15.36.coffee
+framer/backups/backup-2016-06-21 10.16.36.coffee
+framer/backups/backup-2016-06-21 10.19.36.coffee
+framer/backups/backup-2016-06-21 10.20.36.coffee
+framer/backups/backup-2016-06-21 10.21.36.coffee
+framer/backups/backup-2016-06-21 10.22.36.coffee
+framer/backups/backup-2016-06-21 10.23.36.coffee
+framer/backups/backup-2016-06-21 10.24.36.coffee
+framer/backups/backup-2016-06-21 10.25.36.coffee
+framer/backups/backup-2016-06-21 10.26.36.coffee
+framer/backups/backup-2016-06-21 10.28.36.coffee
+framer/backups/backup-2016-06-21 10.29.36.coffee
+framer/backups/backup-2016-06-21 10.30.36.coffee
+framer/backups/backup-2016-06-21 10.33.36.coffee
+framer/backups/backup-2016-06-21 10.37.36.coffee
+framer/backups/backup-2016-06-21 10.38.36.coffee
+framer/backups/backup-2016-06-21 10.39.36.coffee
+framer/backups/backup-2016-06-21 10.40.36.coffee
+framer/backups/backup-2016-06-21 10.41.36.coffee
+framer/backups/backup-2016-06-21 10.42.36.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+images/0.mp4
+images/1.mp4
+images/2.mp4
+images/3.mp4
+images/4.mp4
+images/Screen Shot 2016-06-17 at 11.02.18 AM.png
+imported/screen@1x/images/Layer-$0-ouq5mdu5.png
+imported/screen@1x/images/Layer-$1-rkvgotqx.png
+imported/screen@1x/images/Layer-$2-qte0ouy2.png
+imported/screen@1x/images/Layer-$3-qtq2rdbf.png
+imported/screen@1x/images/Layer-$4-nengmuyx.png
+imported/screen@1x/images/Layer-arrivals-oda0meyy.png
+imported/screen@1x/images/Layer-t1-mjnfqkm5.png
+imported/screen@1x/images/Layer-t2-rtc2nuiz.png
+imported/screen@1x/images/Layer-t3-m0jdqky0.png
+imported/screen@1x/images/Layer-t4-rjyxmzff.png
+imported/screen@1x/images/Layer-t5-mdk1rtrf.png
+imported/screen@1x/layers.json
+imported/screen@1x/layers.json.js
+index.html
+modules/myModule.coffee
