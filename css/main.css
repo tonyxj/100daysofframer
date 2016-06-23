@@ -464,62 +464,78 @@ body {
 
 /* line 21, ../sass/main.scss */
 header {
-  padding: 5rem 10vw;
+  padding: 5rem 9vw 5rem 9rem;
   background-color: white;
 }
-/* line 25, ../sass/main.scss */
-header a {
+@media screen and (max-width: 680px) {
+  /* line 21, ../sass/main.scss */
+  header {
+    padding-left: 2.3rem;
+  }
+  /* line 26, ../sass/main.scss */
+  header h1 {
+    line-height: 3.5rem;
+  }
+}
+/* line 31, ../sass/main.scss */
+header .menu a {
+  font-size: 1.1rem;
+  color: blue;
   display: inline-block;
-  margin-right: 1rem;
-  opacity: 0.2;
-  margin-top: 2rem;
-  color: grey;
-  text-decoration: none;
-}
-/* line 34, ../sass/main.scss */
-header a.current {
-  text-decoration: underline;
-  color: blue;
-  opacity: 0.8;
-}
-/* line 40, ../sass/main.scss */
-header a.real {
-  color: blue;
+  display: none;
+  margin-right: 0.3rem;
   opacity: 0.5;
+  margin-top: 1.6rem;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+}
+/* line 45, ../sass/main.scss */
+header .menu a.current {
+  display: inline-block;
+  border: 1px solid blue;
+}
+/* line 50, ../sass/main.scss */
+header .menu a.real {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 255, 0);
+  transition: all 0.3s;
+}
+/* line 54, ../sass/main.scss */
+header .menu a.real:hover {
+  border: 1px solid blue;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 h1 {
   font-family: "Playfair Display";
   font-size: 4rem;
   margin: 0;
   color: #111;
 }
-/* line 51, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 h1 span {
-  text-transform: uppercase;
-  margin-top: 0.3rem;
-  letter-spacing: 1px;
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: "Jaldi";
-  font-weight: 400;
-  opacity: 0.55;
+  font-weight: 700;
+  opacity: 0.2;
 }
-/* line 60, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 h1 span a.author {
   text-decoration: none;
-  color: blue;
-  opacity: 0.5;
+  color: black;
+  font-size: 1.5rem;
 }
 
-/* line 68, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .wrapper {
   width: 100%;
   padding: 1rem 10vw 5rem;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 iframe {
   width: 80vw;
   height: 650px;
@@ -527,20 +543,26 @@ iframe {
   margin: 1rem 0 3rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 73, ../sass/main.scss */
+  /* line 87, ../sass/main.scss */
   iframe {
     display: none;
   }
 }
 
-/* line 83, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 h2 {
   font-size: 2.6rem;
   margin-bottom: 0;
   opacity: 0.75;
 }
+@media screen and (max-width: 680px) {
+  /* line 97, ../sass/main.scss */
+  h2 {
+    line-height: 2.6rem;
+  }
+}
 
-/* line 89, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 h3 {
   font-size: 1.8rem;
   margin-top: -1rem;
@@ -548,39 +570,40 @@ h3 {
   font-weight: normal;
 }
 @media screen and (max-width: 680px) {
-  /* line 89, ../sass/main.scss */
+  /* line 106, ../sass/main.scss */
   h3 {
-    margin-top: -0.3rem;
-    line-height: 2.2rem;
+    margin-top: 0.5rem;
+    line-height: 2rem;
   }
 }
 
-/* line 100, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 p {
   font-size: 1.25rem;
   margin-top: -1rem;
-  width: 41%;
+  width: 53%;
   line-height: 1.6rem;
 }
-/* line 105, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 p a {
   opacity: 0.5;
   text-decoration: none;
 }
 @media screen and (max-width: 680px) {
-  /* line 100, ../sass/main.scss */
+  /* line 117, ../sass/main.scss */
   p {
     width: 100%;
   }
 }
 
-/* line 114, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 .proto-link {
   display: none;
   opacity: 0.5;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 114, ../sass/main.scss */
+  /* line 131, ../sass/main.scss */
   .proto-link {
     display: block;
   }

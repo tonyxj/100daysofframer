@@ -1,0 +1,70 @@
+app.coffee
+framer/backups/backup-2016-06-23 15.09.00.coffee
+framer/backups/backup-2016-06-23 15.10.00.coffee
+framer/backups/backup-2016-06-23 15.13.50.coffee
+framer/backups/backup-2016-06-23 15.20.50.coffee
+framer/backups/backup-2016-06-23 15.21.50.coffee
+framer/backups/backup-2016-06-23 15.22.50.coffee
+framer/backups/backup-2016-06-23 15.23.50.coffee
+framer/backups/backup-2016-06-23 15.24.50.coffee
+framer/backups/backup-2016-06-23 15.32.50.coffee
+framer/backups/backup-2016-06-23 15.33.50.coffee
+framer/backups/backup-2016-06-23 15.34.50.coffee
+framer/backups/backup-2016-06-23 15.35.50.coffee
+framer/backups/backup-2016-06-23 15.36.50.coffee
+framer/backups/backup-2016-06-23 15.37.50.coffee
+framer/backups/backup-2016-06-23 15.38.50.coffee
+framer/backups/backup-2016-06-23 15.39.50.coffee
+framer/backups/backup-2016-06-23 15.40.50.coffee
+framer/backups/backup-2016-06-23 15.41.50.coffee
+framer/backups/backup-2016-06-23 15.42.50.coffee
+framer/backups/backup-2016-06-23 15.51.50.coffee
+framer/backups/backup-2016-06-23 15.52.50.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+images/circlesCut.png
+images/slide.png
+images/slideShine.png
+imported/16_lock@1x/images/Layer-bg-qzbfrthe.jpg
+imported/16_lock@1x/images/Layer-bottomHandle-rkrcqjbd.png
+imported/16_lock@1x/images/Layer-camera-rjq2mumz.png
+imported/16_lock@1x/images/Layer-circles-rji1nkuw.png
+imported/16_lock@1x/images/Layer-numTexts-nzyzoeqz.png
+imported/16_lock@1x/images/Layer-slideShine-m0rdrevd.png
+imported/16_lock@1x/images/Layer-slideWords-mzexnere.png
+imported/16_lock@1x/images/Layer-statusBar-nzaxqjzc.png
+imported/16_lock@1x/images/Layer-textGroup-qtkyqzzd.png
+imported/16_lock@1x/images/Layer-timeDate-njvgoui3.png
+imported/16_lock@1x/images/Layer-topHandle-mevfreff.png
+imported/16_lock@1x/layers.json
+imported/16_lock@1x/layers.json.js
+index.html
+modules/myModule.coffee
