@@ -26,6 +26,18 @@
 	</header>
 
 	<div class="wrapper">
+
+		<h2>Day 17: Sticky Header Prototype</h2>
+		<h3>Layer Opacity, BringToFront() and .onMove</h3>
+		<p>Again keeping it simple today. I wanted to create a sticky header on scroll. Initially I tried to move each header label out of the scroll element as they moved past the top. Turns out it returns a nasty NotFoundError: DOM Exception 8 -- something about the target element not existing. I switched to setting the opacity of each layer to zero as it reached the top and setting the opacity of a hidden fixed background layer to 1. It did the job.</p>
+		<a href="http://share.framerjs.com/h1xvx0x36d6d/" class="proto-link">View Prototype</a>
+		<iframe id="day17"
+		    frameborder="0"
+		    scrolling="no"
+		    marginheight="0"
+		    marginwidth="0"
+		    src="http://share.framerjs.com/h1xvx0x36d6d/">
+		</iframe>
 		
 		<h2>Day 16: Safari Switch Tabs</h2>
 		<h3>More String Interpolation, RotationX and Draggable.constraints</h3>
