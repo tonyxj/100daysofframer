@@ -1,0 +1,59 @@
+{
+  "name": "framer-pep",
+  "version": "0.1.4",
+  "description": "Framer adapter for jquery's PEP (PointerEvents Polyfill)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --compile index.coffee"
+  },
+  "author": {
+    "name": "Weston Thayer",
+    "email": "me@westonthayer.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WestonThayer/framer-pep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WestonThayer/framer-pep/issues"
+  },
+  "keywords": [
+    "framerjs",
+    "framer",
+    "pep",
+    "pepjs",
+    "pointerevents"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "files": [
+    "index.js",
+    "pepjs.js"
+  ],
+  "gitHead": "961c47a5ad32a964b3cb04e598725774b3c12239",
+  "homepage": "https://github.com/WestonThayer/framer-pep#readme",
+  "_id": "framer-pep@0.1.4",
+  "_shasum": "11b12c0127e706223bb680b970377d12d4b2be08",
+  "_from": "framer-pep@",
+  "_npmVersion": "2.14.3",
+  "_nodeVersion": "4.1.0",
+  "_npmUser": {
+    "name": "westonthayer",
+    "email": "me@westonthayer.com"
+  },
+  "dist": {
+    "shasum": "11b12c0127e706223bb680b970377d12d4b2be08",
+    "tarball": "https://registry.npmjs.org/framer-pep/-/framer-pep-0.1.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "westonthayer",
+      "email": "me@westonthayer.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/framer-pep/-/framer-pep-0.1.4.tgz"
+}

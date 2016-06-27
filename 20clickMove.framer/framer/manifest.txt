@@ -1,0 +1,62 @@
+app.coffee
+framer/backups/backup-2016-06-27 10.12.08.coffee
+framer/backups/backup-2016-06-27 10.13.08.coffee
+framer/backups/backup-2016-06-27 10.14.08.coffee
+framer/backups/backup-2016-06-27 10.15.08.coffee
+framer/backups/backup-2016-06-27 10.16.08.coffee
+framer/backups/backup-2016-06-27 10.17.08.coffee
+framer/backups/backup-2016-06-27 10.19.08.coffee
+framer/backups/backup-2016-06-27 10.20.08.coffee
+framer/backups/backup-2016-06-27 10.21.08.coffee
+framer/backups/backup-2016-06-27 10.22.08.coffee
+framer/backups/backup-2016-06-27 10.23.08.coffee
+framer/backups/backup-2016-06-27 10.24.08.coffee
+framer/backups/backup-2016-06-27 10.25.08.coffee
+framer/backups/backup-2016-06-27 10.26.08.coffee
+framer/backups/backup-2016-06-27 10.27.08.coffee
+framer/backups/backup-2016-06-27 10.28.08.coffee
+framer/backups/backup-2016-06-27 10.29.08.coffee
+framer/backups/backup-2016-06-27 10.30.08.coffee
+framer/backups/backup-2016-06-27 10.31.08.coffee
+framer/backups/backup-2016-06-27 10.32.08.coffee
+framer/backups/backup-2016-06-27 10.33.08.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+index.html
+modules/framer-pep/index.js
+modules/framer-pep/package.json
+modules/framer-pep/pepjs.js
+modules/framer-pep/README.md
+modules/myModule.coffee
+node_modules/framer-pep/index.js
+node_modules/framer-pep/package.json
+node_modules/framer-pep/pepjs.js
+node_modules/framer-pep/README.md
