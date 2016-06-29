@@ -13,7 +13,8 @@
 		<h1>100 Days of Framer <span>Created by <a href="http://tonyjing.com" class="author">Tony Jing</a></span></h1>
 		<div class="menu">
 			<a href="day1-10.html" class="real">Day 1 - 10</a>
-			<a href="index.html" class="current">Day 11 - 20</a>
+			<a href="day11-20.html" class="real">Day 11 - 20</a>
+			<a href="index.html" class="current">Day 21 - 30</a>
 			<a href="#">Day 21 - 30</a>
 			<a href="#">Day 31 - 40</a>
 			<a href="#">Day 41 - 50</a>
@@ -27,125 +28,18 @@
 
 	<div class="wrapper">
 		
-		<h2>Day 20: Weather App Animation</h2>
-		<h3>Using a Module, .props, z and onTap</h3>
-		<p>I wanted to incorporate Jordan Dobson's great <a href="https://www.facebook.com/groups/framerjs/permalink/721917614601979/">Material Design Pointer module</a> that determines the x and y coordinates of touch events. I aslo wanted to emulate the micro-interaction show for only one second at the 0:08 mark of this <a href="https://youtu.be/Q8TXgCzxEnw?t=8s">video teaser</a> of Material Design.</p>
-		<a href="http://share.framerjs.com/dpqozyy8keh7/" class="proto-link">View Prototype</a>
-		<iframe id="day20"
+		<h2>Day 21: Timer App: Radial Dial</h2>
+		<h3>Module, .on "change:x" and Math.floor</h3>
+		<p>I wanted to incorporate Sergiy Voronov's great <a href="https://github.com/mamezito/dragOnCircleFramerJS">radial dial module</a> in a meaningful way. So I created this timer demo using two radial dials.</p>
+		<a href="http://share.framerjs.com/q9c5rdtot33u/" class="proto-link">View Prototype</a>
+		<iframe id="day21"
 		    frameborder="0"
 		    scrolling="no"
 		    marginheight="0"
 		    marginwidth="0"
-		    src="http://share.framerjs.com/dpqozyy8keh7/">
+		    src="http://share.framerjs.com/q9c5rdtot33u/">
 		</iframe>
 
-		<h2>Day 19: Trailing Circle Part II: Radiant Sun</h2>
-		<h3>Layer.onDragAnimationEnd and Draggable.constraints</h3>
-		<p>Another trailing circle but done in a different way. This time a target cirlce is added, which made the animating a lot easier. Drag the green circle to view the trailing effect, release to view the exploding sun.</p>
-		<a href="http://share.framerjs.com/utd0alz4uf9c/" class="proto-link">View Prototype</a>
-		<iframe id="day19"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/utd0alz4uf9c/">
-		</iframe>
-
-		<h2>Day 18: Trailing Circle Part I</h2>
-		<h3>Utils.isPhone() || Utils.isTablet() and Layer.on Events.TouchMove, (e, layer) -></h3>
-		<p>Another project is picking up steam so I've done only a small prototype today. I found that the TouchMove function is not working on mobile for some reason. After a bit of searching I landed on this <a href="http://stackoverflow.com/questions/30556760/framer-js-how-to-get-tap-coordinates">answer on Stack Overflow</a>. Based on it I built a trailing circle prototype. Touch and move anywhere on the screen to view it. It's a bit choppy, but I've already thought of a better way of building this, which I'll do tomorrow.</p>
-		<a href="http://share.framerjs.com/j0l3nejfd3vo/" class="proto-link">View Prototype</a>
-		<iframe id="day18"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/j0l3nejfd3vo/">
-		</iframe>
-
-		<h2>Day 17: Sticky Header Prototype</h2>
-		<h3>Layer Opacity, BringToFront() and .onMove</h3>
-		<p>Again keeping it simple today. I wanted to create a sticky header on scroll. Initially I tried to move each header label out of the scroll element as they moved past the top. Turns out it returns a nasty NotFoundError: DOM Exception 8 -- something about the target element not existing. I switched to setting the opacity of each layer to zero as it reached the top and setting the opacity of a hidden fixed background layer to 1. It did the job.</p>
-		<a href="http://share.framerjs.com/h1xvx0x36d6d/" class="proto-link">View Prototype</a>
-		<iframe id="day17"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/h1xvx0x36d6d/">
-		</iframe>
-		
-		<h2>Day 16: Safari Switch Tabs</h2>
-		<h3>More String Interpolation, RotationX and Draggable.constraints</h3>
-		<p>Keeping it simple for today's prototype. I wanted to recreate Safair's switch between opened webpages interaction. Turns out the built-in rotation functions are pretty handy for that.</p>
-		<a href="http://share.framerjs.com/km9b49v53x5n/" class="proto-link">View Prototype</a>
-		<iframe id="day16"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/km9b49v53x5n/">
-		</iframe>
-
-		<h2>Day 15: iOS Lock Screen</h2>
-		<h3>Utils.modulate, style: "-webkit-mask" and Utils.interval</h3>
-		<p>For today's prototype, I wanted to recreate the lock screen experience on iOS. This is largely a re-do of Jorn van Dijk's <a href="http://framerjs.com/gallery/preview/#ios-lockscreen.framer">great example</a> on FramerJS gallery.</p>
-		<a href="http://share.framerjs.com/7oc4mb5vi8d5/" class="proto-link">View Prototype</a>
-		<iframe id="day15"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/7oc4mb5vi8d5/">
-		</iframe>
-
-		<h2>Day 14: iOS App Launch</h2>
-		<h3>Nested Loops, switchInstant and .subLayers[i]</h3>
-		<p>I wanted to recreate the quick and subtle zoom animation on app launch and minimize. What makes it interesting is the animation for folder, which adds an zoomed level between the home and the app screen. Tab any icons to view effect.</p>
-		<a href="http://share.framerjs.com/7uriqikpj2k8/" class="proto-link">View Prototype</a>
-		<iframe id="day14"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/7uriqikpj2k8/">
-		</iframe>
-
-		<h2>Day 13: Photo Viewer Prototype</h2>
-		<h3>Pinch, Draggable.constraints, screenFrame and Modulo</h3>
-		<p>This prototype needs to be viewed on a mobile device. The pinch to zoom interaction can only be demo'ed there. I was trying to build something similar to the iOS Photos app. This prototype is still quite buggy. The <a href="https://www.youtube.com/watch?v=kJYI4oYrHik">video tutorial</a> by Jay Stakelon and the <a href="http://share.framerjs.com/g0csfrca75ko/">FramerJS gallery prototype</a> built by Benjamin den Boer were quite helpful.</p>
-		<a href="http://share.framerjs.com/6g19ta0lhht1/" class="proto-link">View Prototype</a>
-		<iframe id="day13"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/6g19ta0lhht1/">
-		</iframe>
-
-		<h2>Day 12: Another Video Play Pause Prototype</h2>
-		<h3>More String Interpolation, Scroll and Parallax</h3>
-		<p>Continuing on the success of iPad video scroll pause prototype, I decided to prototype a video preview idea where the videos auto-play based on scroll position.</p>
-		<a href="http://share.framerjs.com/wycyfnhcyhio/" class="proto-link">View Prototype</a>
-		<iframe id="day12"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/wycyfnhcyhio/">
-		</iframe>
-	
-		<h2>Day 11: Recreating the NYTvr Transition</h2>
-		<h3>Coffeescript String Interpolation, Chrome and Safari Diferences  </h3>
-		<p>Today I decided to emulate the transition interaction on New York Times' VR app. In a feed of VR experiences, when the user clicks on one of the experiences, the background images takes over the entire screen and the user is presented with the option of viewing it in Google Cardboard or on their Smartphone. In donig this prototype, I learned about string interpolation in Coffeescript and the differences in Chrome and Safair rendering.</p>
-		<a href="http://share.framerjs.com/v8f9ibu7t0h5/" class="proto-link">View Prototype</a>
-		<iframe id="day11"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/v8f9ibu7t0h5/">
-		</iframe>
 
 	</div>
 </body>

@@ -1,0 +1,143 @@
+
+$break: 680px;
+
+@import 'base/normalize';
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-size: 17px;
+	background-color: rgba(lightgray, 0.1);
+	font-family: "Jaldi";
+}
+
+header {
+	padding: 5rem 9vw 5rem 9rem;
+	background-color: white;
+	@media screen and (max-width: $break) {	
+		padding-left: 2.3rem;
+		h1 {
+			line-height: 3.5rem;
+		}
+	}
+	.menu {
+		a {
+			font-size: 1.1rem;
+			color: blue;
+			display: inline-block;
+			display: none;
+			margin-right: 0.3rem;
+			opacity: 0.5;
+			margin-top: 1.6rem;
+			text-decoration: none;
+			font-weight: 700;
+			padding: 0.3rem 0.6rem;
+			border-radius: 0.3rem;
+		}
+
+		a.current {
+			display: inline-block;
+			border: 2px solid blue;
+		}
+
+		a.real {
+			display: inline-block;
+			border: 1px solid rgba(blue, 0);
+			transition: all 0.3s;
+			&:hover {
+				border: 1px solid blue;
+			}
+		}
+	}
+}
+
+h1 {
+	font-family: "Playfair Display";
+	font-size: 4rem;
+	margin: 0;
+	color: #111;
+	font-style: italic;
+	span {
+		// text-transform: uppercase;
+		// margin-top: -2rem;
+		display: block;
+		font-size: 1.5rem;
+		font-family: "Jaldi";
+		font-weight: 700;
+		opacity: 0.2;
+		a.author {
+			text-decoration: none;
+			color: black;
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.wrapper {
+	width: 100%;
+	padding: 1rem 10vw 5rem;
+}
+
+iframe {
+	width: 80vw;
+	height: 650px;
+	border: 1px solid rgba(#555, 0.1);
+	margin: 1rem 0 3rem;
+	@media screen and (max-width: $break) {	
+		display: none;
+	}
+}
+
+h2 {
+	font-size: 2.6rem;
+	margin-bottom: 0;
+	opacity: 0.75;
+	@media screen and (max-width: $break) {	
+		line-height: 2.6rem;
+	}
+}
+
+h3 {
+	font-size: 1.8rem;
+	margin-top: -1rem;
+	opacity: 0.3;
+	font-weight: normal;
+	@media screen and (max-width: $break) {	
+		margin-top: 0.5rem;
+		line-height: 2rem;
+	}
+}
+ 
+p {
+	font-size: 1.25rem;
+	margin-top: -1rem;
+	width: 53%;
+	line-height: 1.6rem;
+	a {
+		opacity: 0.5;
+		text-decoration: none;
+	}
+	@media screen and (max-width: $break) {	
+		width: 100%;
+	}
+}
+
+.proto-link {
+	display: none;
+	opacity: 0.5;
+	font-size: 1.5rem;
+	@media screen and (max-width: $break) {	
+		display: block;
+	}
+}
+
+
+
+
