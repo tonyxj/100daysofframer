@@ -1,0 +1,54 @@
+app.coffee
+framer/backups/backup-2016-07-05 14.56.10.coffee
+framer/backups/backup-2016-07-05 14.57.10.coffee
+framer/backups/backup-2016-07-05 14.58.10.coffee
+framer/backups/backup-2016-07-05 14.59.10.coffee
+framer/backups/backup-2016-07-05 15.00.10.coffee
+framer/backups/backup-2016-07-05 15.03.31.coffee
+framer/backups/backup-2016-07-05 15.08.31.coffee
+framer/backups/backup-2016-07-05 15.10.31.coffee
+framer/backups/backup-2016-07-05 15.11.31.coffee
+framer/backups/backup-2016-07-05 15.12.31.coffee
+framer/backups/backup-2016-07-05 15.13.31.coffee
+framer/backups/backup-2016-07-05 15.14.31.coffee
+framer/backups/backup-2016-07-05 15.15.31.coffee
+framer/backups/backup-2016-07-05 15.19.31.coffee
+framer/backups/backup-2016-07-05 15.20.31.coffee
+framer/backups/backup-2016-07-05 15.21.31.coffee
+framer/backups/backup-2016-07-05 15.22.31.coffee
+framer/backups/backup-2016-07-05 15.24.31.coffee
+framer/backups/backup-2016-07-05 15.25.31.coffee
+framer/backups/backup-2016-07-05 15.39.52.coffee
+framer/backups/backup-2016-07-05 15.40.52.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+index.html
+modules/myModule.coffee
