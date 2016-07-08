@@ -1,0 +1,77 @@
+app.coffee
+framer/backups/backup-2016-07-07 21.06.53.coffee
+framer/backups/backup-2016-07-07 21.07.53.coffee
+framer/backups/backup-2016-07-07 21.28.53.coffee
+framer/backups/backup-2016-07-07 21.29.53.coffee
+framer/backups/backup-2016-07-07 21.30.53.coffee
+framer/backups/backup-2016-07-07 21.32.53.coffee
+framer/backups/backup-2016-07-07 21.33.53.coffee
+framer/backups/backup-2016-07-07 21.34.53.coffee
+framer/backups/backup-2016-07-07 21.35.53.coffee
+framer/backups/backup-2016-07-07 21.37.54.coffee
+framer/backups/backup-2016-07-07 21.38.53.coffee
+framer/backups/backup-2016-07-07 21.39.53.coffee
+framer/backups/backup-2016-07-07 21.40.53.coffee
+framer/backups/backup-2016-07-07 21.41.53.coffee
+framer/backups/backup-2016-07-07 21.42.53.coffee
+framer/backups/backup-2016-07-07 21.43.53.coffee
+framer/backups/backup-2016-07-07 21.44.53.coffee
+framer/backups/backup-2016-07-07 21.47.53.coffee
+framer/backups/backup-2016-07-07 21.48.53.coffee
+framer/backups/backup-2016-07-07 21.51.53.coffee
+framer/backups/backup-2016-07-07 21.52.53.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+imported/sprig@1x/images/Layer-addToOrder-odvboenc.png
+imported/sprig@1x/images/Layer-bg-mji3mdrf.png
+imported/sprig@1x/images/Layer-close-mtjcqky2.png
+imported/sprig@1x/images/Layer-close-ody3qza5.png
+imported/sprig@1x/images/Layer-close-oue1muey.png
+imported/sprig@1x/images/Layer-close-qtg3qzhg.png
+imported/sprig@1x/images/Layer-close-qza5mjjc.png
+imported/sprig@1x/images/Layer-close-ruizmtfd.png
+imported/sprig@1x/images/Layer-day1-mumyqtzd.png
+imported/sprig@1x/images/Layer-day1Details-mjlfrdq4.png
+imported/sprig@1x/images/Layer-day2-nujbmzzb.png
+imported/sprig@1x/images/Layer-day2Details-m0zgmeyy.png
+imported/sprig@1x/images/Layer-day3-odbdrkjb.png
+imported/sprig@1x/images/Layer-day3Details-nzixntex.png
+imported/sprig@1x/images/Layer-day4-munbmtc5.png
+imported/sprig@1x/images/Layer-day4Details-mjgxmze2.png
+imported/sprig@1x/images/Layer-day5-qjhbqjc3.png
+imported/sprig@1x/images/Layer-day5Details-rdqynkqy.png
+imported/sprig@1x/images/Layer-day6-mtjemta0.png
+imported/sprig@1x/images/Layer-day6Details-njlgnuey.png
+imported/sprig@1x/images/Layer-selector-qti3mey3.png
+imported/sprig@1x/layers.json
+imported/sprig@1x/layers.json.js
+index.html
+modules/myModule.coffee
