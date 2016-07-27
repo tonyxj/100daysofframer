@@ -477,8 +477,9 @@ header {
     line-height: 3.5rem;
   }
 }
-/* line 31, ../sass/main.scss */
-header .menu a {
+
+/* line 33, ../sass/main.scss */
+.menu a {
   font-size: 1.1rem;
   color: blue;
   display: inline-block;
@@ -491,23 +492,23 @@ header .menu a {
   padding: 0.3rem 0.6rem;
   border-radius: 0.3rem;
 }
-/* line 45, ../sass/main.scss */
-header .menu a.current {
+/* line 47, ../sass/main.scss */
+.menu a.current {
   display: inline-block;
   border: 2px solid blue;
 }
-/* line 50, ../sass/main.scss */
-header .menu a.real {
+/* line 52, ../sass/main.scss */
+.menu a.real {
   display: inline-block;
   border: 1px solid rgba(0, 0, 255, 0);
   transition: all 0.3s;
 }
-/* line 54, ../sass/main.scss */
-header .menu a.real:hover {
+/* line 56, ../sass/main.scss */
+.menu a.real:hover {
   border: 1px solid blue;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 h1 {
   font-family: "Playfair Display";
   font-size: 4rem;
@@ -515,7 +516,7 @@ h1 {
   color: #111;
   font-style: italic;
 }
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 h1 span {
   display: block;
   font-size: 1.5rem;
@@ -523,20 +524,20 @@ h1 span {
   font-weight: 700;
   opacity: 0.2;
 }
-/* line 75, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 h1 span a.author {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .wrapper {
   width: 100%;
   padding: 1rem 10vw 5rem;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 iframe {
   width: 80vw;
   height: 650px;
@@ -544,26 +545,26 @@ iframe {
   margin: 1rem 0 3rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 88, ../sass/main.scss */
+  /* line 89, ../sass/main.scss */
   iframe {
     display: none;
   }
 }
 
-/* line 98, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 h2 {
   font-size: 2.6rem;
   margin-bottom: 0;
   opacity: 0.75;
 }
 @media screen and (max-width: 680px) {
-  /* line 98, ../sass/main.scss */
+  /* line 99, ../sass/main.scss */
   h2 {
     line-height: 2.6rem;
   }
 }
 
-/* line 107, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 h3 {
   font-size: 1.8rem;
   margin-top: -1rem;
@@ -571,40 +572,40 @@ h3 {
   font-weight: normal;
 }
 @media screen and (max-width: 680px) {
-  /* line 107, ../sass/main.scss */
+  /* line 108, ../sass/main.scss */
   h3 {
     margin-top: 0.5rem;
     line-height: 2rem;
   }
 }
 
-/* line 118, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 p {
   font-size: 1.25rem;
   margin-top: -1rem;
   width: 53%;
   line-height: 1.6rem;
 }
-/* line 123, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 p a {
   opacity: 0.5;
   text-decoration: none;
 }
 @media screen and (max-width: 680px) {
-  /* line 118, ../sass/main.scss */
+  /* line 119, ../sass/main.scss */
   p {
     width: 100%;
   }
 }
 
-/* line 132, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .proto-link {
   display: none;
   opacity: 0.5;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 132, ../sass/main.scss */
+  /* line 133, ../sass/main.scss */
   .proto-link {
     display: block;
   }

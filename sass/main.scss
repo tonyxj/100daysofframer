@@ -27,33 +27,34 @@ header {
 			line-height: 3.5rem;
 		}
 	}
-	.menu {
-		a {
-			font-size: 1.1rem;
-			color: blue;
-			display: inline-block;
-			display: none;
-			margin-right: 0.3rem;
-			opacity: 0.5;
-			margin-top: 1.6rem;
-			text-decoration: none;
-			font-weight: 700;
-			padding: 0.3rem 0.6rem;
-			border-radius: 0.3rem;
-		}
+}
 
-		a.current {
-			display: inline-block;
-			border: 2px solid blue;
-		}
+.menu {
+	a {
+		font-size: 1.1rem;
+		color: blue;
+		display: inline-block;
+		display: none;
+		margin-right: 0.3rem;
+		opacity: 0.5;
+		margin-top: 1.6rem;
+		text-decoration: none;
+		font-weight: 700;
+		padding: 0.3rem 0.6rem;
+		border-radius: 0.3rem;
+	}
 
-		a.real {
-			display: inline-block;
-			border: 1px solid rgba(blue, 0);
-			transition: all 0.3s;
-			&:hover {
-				border: 1px solid blue;
-			}
+	a.current {
+		display: inline-block;
+		border: 2px solid blue;
+	}
+
+	a.real {
+		display: inline-block;
+		border: 1px solid rgba(blue, 0);
+		transition: all 0.3s;
+		&:hover {
+			border: 1px solid blue;
 		}
 	}
 }
