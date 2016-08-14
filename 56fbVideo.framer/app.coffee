@@ -43,38 +43,51 @@ vidBg.placeBehind(vidContainer)
 # Functions
 popUp = (vid) ->
 	if vid.open is true
-		scroll.scrollVertical = true
-		scroll.animate properties: scale: 1
-		baseUI.animate properties: scale: 1, opacity: 1
-		scrAmt = scroll.scrollY
-		vidBg.animate 
-			properties: opacity: 0
-			curve: "ease", time: 0.35
-		vid.animate properties: 
-			scale: shrinkScale, y: 1303 - scrAmt + 38, x: Align.center
+		closeVideo(vid)
+	else 
+		openVideo(vid)
+		runDragging(vid)
+
+openVideo = (vid) ->
+	scroll.content.animateStop()
+	scroll.scrollVertical = false
+	scroll.animate properties: scale: shrinkScale
+	baseUI.animate properties: scale: shrinkScale, opacity: 0
+	vidBg.animate 
+		properties: opacity: 1
+		curve: "ease", time: 0.35
+	vid.animate properties:
+		scale: 1, y: Align.center
+	vid.open = true
+
+closeVideo = (vid) ->
+	scroll.scrollVertical = true
+	scroll.animate properties: scale: 1
+	baseUI.animate properties: scale: 1, opacity: 1
+	vid.placeBehind(baseUI)
+	scrAmt = scroll.scrollY
+	vidBg.animate 
+		properties: opacity: 0
+		curve: "ease", time: 0.35
+	vid.animate properties: 
+		scale: shrinkScale, y: 1303 - scrAmt + 38, x: Align.center
+	vid.onAnimationEnd ->
 		vid.open = false
 		vid.draggable.enabled = false
-	else 
-		scroll.content.animateStop()
-		scroll.scrollVertical = false
-		scroll.animate properties: scale: shrinkScale
-		baseUI.animate properties: scale: shrinkScale, opacity: 0
-		vidBg.animate 
-			properties: opacity: 1
-			curve: "ease", time: 0.35
-		vid.animate properties:
-			scale: 1, y: Align.center
-		vid.open = true
-		runDragging(vid)
+		
 
 runDragging = (vid) ->
 	vid.draggable.enabled = true
+	vid.bringToFront()
 	vid.onDrag ->
 		x = vid.draggable.offset.x
 		y = vid.draggable.offset.y
 		dist = Math.sqrt(x*x + y*y)
 		vidBg.opacity = Utils.modulate(dist, [0, 650], [1, 0], true)
 		baseUI.opacity = Utils.modulate(dist, [0, 650], [0, 1], true)
+	vid.onDragEnd ->
+		closeVideo(vid)
+
 
 # Events
 scroll.onMove ->
