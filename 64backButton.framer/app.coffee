@@ -42,6 +42,8 @@ third = new Layer
 third.states.add on: opacity: 1
 third.states.animationOptions = fadeIn
 
+first.bringToFront()
+
 state = (hash) ->
 	window.location.hash = hash
 		
@@ -51,13 +53,14 @@ state = (hash) ->
 			third.states.switch("on")
 			second.states.switch("default")
 		when "#second" 
+			second.bringToFront()
 			third.states.switch("default")
 			first.states.switch("default")
 			second.states.switch("on")
 		else  
+			first.bringToFront()
 			second.states.switch("default")
 			first.states.switch("on")
-
 
 #Start with your initial state
 state("")
@@ -66,8 +69,9 @@ state("")
 first.on Events.TouchEnd, ->
 	state("#second")
 	
-	second.on Events.TouchEnd, ->
-		state("#third")
+	
+second.on Events.TouchEnd, ->
+	state("#third")
 
 #You won't need to change these. They listen to the back button & go to the previous state.
 goBack = () ->
