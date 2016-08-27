@@ -26,6 +26,20 @@
 	</header>
 
 	<div class="wrapper">
+		
+
+		<h2>Day 68: Google Photos Transitions</h2>
+		<h3>.onPinch and randomize Utility Function</h3>
+		<p>I wanted to recreate the smooth photo grid zoom interaction seen in the Google Photos app. This one turned out to be a hard nut to crack. The origin interaction had a smooth scaling of not only the photos but the margin space as well - the scaled amount of the two are indepedent but the overall photo grid scales in proportion. Also the photos near the center of the pinch retain their location, so only the photos around them are scaled and translated. After looking into this for an entire day, this is as close as I can get. <b>Mobile device preview only</b>. Pinch to view the effect.</p>
+		<a href="http://share.framerjs.com/k16t8hfbqvtn/" class="proto-link">View Prototype</a>
+		<iframe id="day68"
+		    frameborder="0"
+		    scrolling="no"
+		    marginheight="0"
+		    marginwidth="0"
+		    src="http://share.framerjs.com/k16t8hfbqvtn/">
+		</iframe>
+
 		<h2>Day 67: Instagram Swipe</h2>
 		<h3>Events.Swipe, Double Loop to Create Tiles, and .ignoreEvents </h3>
 		<p>Having read David Lee's great introductory <a href="https://medium.com/framer-prototyping/code-less-achieve-more-with-arrays-in-framer-c43594d13d59#.8pohceex5">Medium article</a> on using arrays, I decided quickly recreated <a href="http://share.framerjs.com/bkl6smlcqwhz/">the example</a> from scratch. All done within 45 minutes. Though I've been intensively practicing Framer for two and half months straight, reading his take revealed new interesting things. I learned a new event .onSwipe, which could've proved useful for my previous prototype. I also learned that using the double loop is a much more efficient way to create a tile than modulo.</p>
