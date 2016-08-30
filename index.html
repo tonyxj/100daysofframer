@@ -18,134 +18,27 @@
 			<a href="day31-40.html" class="real">Day 31 - 40</a>
 			<a href="day41-50.html" class="real">Day 41 - 50</a>
 			<a href="day51-60.html" class="real">Day 51 - 60</a>
-			<a href="index.html" class="current">Day 61 - 70</a>
-			<a href="#">Day 71 - 80</a>
+			<a href="day61-70.html" class="real">Day 61 - 70</a>
+			<a href="index.html" class="current">Day 71 - 80</a>
 			<a href="#">Day 81 - 90</a>
 			<a href="#">Day 91 - 100</a>
 		</div>
 	</header>
 
 	<div class="wrapper">
-	
-		<h2>Day 70: Pinterest-Inspired Zoom Effect</h2>
-		<h3>Class, constructor: (options={}) and scroll.contentInset</h3>
-		<p>I wanted to recreate the <a href="https://dribbble.com/shots/2926123-Dynamic-Grid-Gallery-Framer-download-link-attached">great demo</a> from Jinju Jang but using classes instead. This is end result. The number of columns, cards and margin size can be adjusted in a single function.</p>
-		<a href="http://share.framerjs.com/aib1aihlid09/" class="proto-link">View Prototype</a>
-		<iframe id="day70"
+
+		<h2>Day 71: Pinterest-Inspired Zoom Effect</h2>
+		<h3>Utils.modulate(), and states</h3>
+		<p>Seeing Joshua Tucker's <a href="http://framergroup.com/posts/920909581369447.html">awesomely annotated prototype</a>, I decided to enhance the user experience of this toggle. For people like mom, who are not used to these mobile design pattern, bad copy writing never makes sense. "So it says 'hide my feed from this contact', which way should I push the toggle button? Does the green side mean show or hide?" One time she called and asked. The copy should never ask "not" question. Users should not have to think about doulbe-negatives.</p>
+		<a href="http://share.framerjs.com/03braphx5hcb/" class="proto-link">View Prototype</a>
+		<iframe id="day71"
 		    frameborder="0"
 		    scrolling="no"
 		    marginheight="0"
 		    marginwidth="0"
-		    src="http://share.framerjs.com/aib1aihlid09/">
-		</iframe>
-		
-		<h2>Day 69: Dropping Dots</h2>
-		<h3>ShakeEvent module, event.touches[0], array.forEach, array.map</h3>
-		<p>I was amazed by the <a href="https://www.facebook.com/groups/framerjs/permalink/916748671785538/">demo goodness</a> that Jonas Treub shared in the FB group, and wanted to add my touch to it. I added some simple logic to drop the dots beyond a certain distance pushed. Pan over the dots to push and drop them. If you're vewing on mobile, shake your device to reset the demo, this is done thanks to the great <a href="https://github.com/RayPS/Framer-Module-ShakeEvent">ShakeEvent module</a> from RayPS.</p>
-		<a href="http://share.framerjs.com/7xmj03p3gj85/" class="proto-link">View Prototype</a>
-		<iframe id="day69"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/7xmj03p3gj85/">
+		    src="http://share.framerjs.com/03braphx5hcb/">
 		</iframe>
 
-		<h2>Day 68: Google Photos Transitions</h2>
-		<h3>.onPinch and randomize Utility Function</h3>
-		<p>I wanted to recreate the smooth photo grid zoom interaction seen in the Google Photos app. This one turned out to be a hard nut to crack. The origin interaction had a smooth scaling of not only the photos but the margin space as well - the scaled amount of the two are indepedent but the overall photo grid scales in proportion. Also the photos near the center of the pinch retain their location, so only the photos around them are scaled and translated. After looking into this for an entire day, this is as close as I can get. <b>Mobile device preview only</b>. Pinch to view the effect.</p>
-		<a href="http://share.framerjs.com/k16t8hfbqvtn/" class="proto-link">View Prototype</a>
-		<iframe id="day68"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/k16t8hfbqvtn/">
-		</iframe>
-
-		<h2>Day 67: Instagram Swipe</h2>
-		<h3>Events.Swipe, Double Loop to Create Tiles, and .ignoreEvents </h3>
-		<p>Having read David Lee's great introductory <a href="https://medium.com/framer-prototyping/code-less-achieve-more-with-arrays-in-framer-c43594d13d59#.8pohceex5">Medium article</a> on using arrays, I decided quickly recreated <a href="http://share.framerjs.com/bkl6smlcqwhz/">the example</a> from scratch. All done within 45 minutes. Though I've been intensively practicing Framer for two and half months straight, reading his take revealed new interesting things. I learned a new event .onSwipe, which could've proved useful for my previous prototype. I also learned that using the double loop is a much more efficient way to create a tile than modulo.</p>
-		<a href="http://share.framerjs.com/03ccqp6q2fya/" class="proto-link">View Prototype</a>
-		<iframe id="day67"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/03ccqp6q2fya/">
-		</iframe>
-		
-		<h2>Day 66: Page Swipe</h2>
-		<h3>Dummy Animation as Event Trigger, and .draggable</h3>
-		<p>This prototype was again inspired by the <a href="https://itunes.apple.com/us/app/hyper-videos-worth-watching/id1015014154?mt=8">Hyper app</a>. Built-in page component doesn't work with the fixed dragging, that is while the layer is not moving on screen, a drag event detects finger swipe, causing the said layer to change (eg. in scale, color, etc., an attribute other than position). Instead I built invisible dragging areas and mapped their changes to the page layers. I also used a dummy animation to keep track of the title bar fade-ins and fade-outs, instead of using Utils.delay. Swipe to view interaction.</p>
-		<a href="http://share.framerjs.com/7du6ioh3q2vk/" class="proto-link">View Prototype</a>
-		<iframe id="day66"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/7du6ioh3q2vk/">
-		</iframe>
-
-		<h2>Day 65: Prescient App Onboarding</h2>
-		<h3>Video, Clip, and Page Components</h3>
-		<p>I saw <a href="https://itunes.apple.com/us/app/hyper-videos-worth-watching/id1015014154?mt=8">Hyper app</a>'s onboarding flow and decided to recreate its background video clipping effect. Swipe to view details. View on desktop browser for best results.</p>
-		<a href="http://share.framerjs.com/23j21td4dgqz/" class="proto-link">View Prototype</a>
-		<iframe id="day65"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/23j21td4dgqz/">
-		</iframe>
-
-		<h2>Day 64: Chuck Norris Facts</h2>
-		<h3>Utils.domLoadJSON and SpeechSynth Module</h3>
-		<p>Another simple prototype today. I wanted to incorporate Joshua Tucker's <a href="https://github.com/joshmtucker/SpeechSynth">Speech Synthesis module</a> in a live example. The result is a hacky random Chuck Norris facts narrator. View the demo in a desktop browser and click the button to hear the joke.</p>
-		<a href="http://share.framerjs.com/39k7oo98mpht/" class="proto-link">View Prototype</a>
-		<iframe id="day64"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/39k7oo98mpht/">
-		</iframe>
-
-		<h2>Day 63: Facebook Paper Tilt</h2>
-		<h3>OrientationEvents Module, Utils.interval</h3>
-		<p>This is a throwback to 2014, back when Facebook released Paper. Its tilt effect was kinda cool, so I decided to recreate it by referring to Joshua Tucker's <a href="http://framergroup.com/posts/658134740980267.html">orientation events module</a>, Igor Shepel's <a href="http://framergroup.com/posts/915308438596228.html">prototype</a>, Stephen Crowley's <a href="http://framergroup.com/posts/736184523175288.html">demo video</a>. To view it, open the link on a mobile browser.</p>
-		<a href="http://share.framerjs.com/8ikpkdbisdlf/" class="proto-link">View Prototype</a>
-		<iframe id="day63"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/8ikpkdbisdlf/">
-		</iframe>
-		
-		<h2>Day 62: Browser Back Button</h2>
-		<h3>window.location.hash, and window.onpopstate</h3>
-		<p>Kevyn Arnott shared a <a href="http://framergroup.com/posts/913780028749069.html">delightful snippet</a> for those of us building web prototypes in Framer to allow the use of the browser back button in the shared browser prototype. I used his code and built a tiny demo on top of it. For best viewing experience, <a target=_blank href="http://share.framerjs.com/83gaapoxp2uy/">open the prototype link</a> in a new window.</p>
-		<a href="http://share.framerjs.com/83gaapoxp2uy/" class="proto-link">View Prototype</a>
-		<iframe id="day62"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/83gaapoxp2uy/">
-		</iframe>
-
-		<h2>Day 61: Instagram Stories</h2>
-		<h3>States and Click</h3>
-		<p>This is a quick 40-minute recreation on the open and close interaction on Instagram's new Storie's feature.</p>
-		<a href="http://share.framerjs.com/apdor1wwh7zl/" class="proto-link">View Prototype</a>
-		<iframe id="day61"
-		    frameborder="0"
-		    scrolling="no"
-		    marginheight="0"
-		    marginwidth="0"
-		    src="http://share.framerjs.com/apdor1wwh7zl/">
-		</iframe>
 	
 		
 		<div class="menu">
@@ -155,8 +48,8 @@
 			<a href="day31-40.html" class="real">Day 31 - 40</a>
 			<a href="day41-50.html" class="real">Day 41 - 50</a>
 			<a href="day51-60.html" class="real">Day 51 - 60</a>
-			<a href="index.html" class="current">Day 61 - 70</a>
-			<a href="#">Day 71 - 80</a>
+			<a href="day61-70.html" class="real">Day 61 - 70</a>
+			<a href="index.html" class="current">Day 71 - 80</a>
 			<a href="#">Day 81 - 90</a>
 			<a href="#">Day 91 - 100</a>
 		</div>
