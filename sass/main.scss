@@ -40,8 +40,8 @@ header {
 		margin-top: 1.6rem;
 		text-decoration: none;
 		font-weight: 700;
-		padding: 0.3rem 0.6rem;
-		border-radius: 0.3rem;
+		padding: 0rem 0.7rem;
+		border-radius: 0.2rem;
 	}
 
 	a.current {
@@ -51,10 +51,10 @@ header {
 
 	a.real {
 		display: inline-block;
-		border: 1px solid rgba(blue, 0);
+		border: 2px solid rgba(blue, 0);
 		transition: all 0.3s;
 		&:hover {
-			border: 1px solid blue;
+			border: 2px solid blue;
 		}
 	}
 }
@@ -71,7 +71,7 @@ h1 {
 		display: block;
 		font-size: 1.5rem;
 		font-family: "Jaldi";
-		font-weight: 700;
+		font-weight: 300;
 		opacity: 0.2;
 		a.author {
 			text-decoration: none;
@@ -88,7 +88,7 @@ h1 {
 
 iframe {
 	width: 80vw;
-	height: 650px;
+	height: 690px;
 	border: 1px solid rgba(#555, 0.1);
 	margin: 1rem 0 3rem;
 	@media screen and (max-width: $break) {	

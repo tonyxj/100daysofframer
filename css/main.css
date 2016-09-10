@@ -489,8 +489,8 @@ header {
   margin-top: 1.6rem;
   text-decoration: none;
   font-weight: 700;
-  padding: 0.3rem 0.6rem;
-  border-radius: 0.3rem;
+  padding: 0rem 0.7rem;
+  border-radius: 0.2rem;
 }
 /* line 47, ../sass/main.scss */
 .menu a.current {
@@ -500,12 +500,12 @@ header {
 /* line 52, ../sass/main.scss */
 .menu a.real {
   display: inline-block;
-  border: 1px solid rgba(0, 0, 255, 0);
+  border: 2px solid rgba(0, 0, 255, 0);
   transition: all 0.3s;
 }
 /* line 56, ../sass/main.scss */
 .menu a.real:hover {
-  border: 1px solid blue;
+  border: 2px solid blue;
 }
 
 /* line 62, ../sass/main.scss */
@@ -521,7 +521,7 @@ h1 span {
   display: block;
   font-size: 1.5rem;
   font-family: "Jaldi";
-  font-weight: 700;
+  font-weight: 300;
   opacity: 0.2;
 }
 /* line 76, ../sass/main.scss */
@@ -540,7 +540,7 @@ h1 span a.author {
 /* line 89, ../sass/main.scss */
 iframe {
   width: 80vw;
-  height: 650px;
+  height: 690px;
   border: 1px solid rgba(85, 85, 85, 0.1);
   margin: 1rem 0 3rem;
 }
