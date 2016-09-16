@@ -478,7 +478,7 @@ header {
   }
 }
 
-/* line 33, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 .menu a {
   font-size: 1.1rem;
   color: blue;
@@ -491,24 +491,25 @@ header {
   font-weight: 700;
   padding: 0rem 0.7rem;
   border-radius: 0.2rem;
+  border-bottom: 2px solid blue !important;
 }
-/* line 47, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .menu a.current {
   display: inline-block;
   border: 2px solid blue;
 }
-/* line 52, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 .menu a.real {
   display: inline-block;
   border: 2px solid rgba(0, 0, 255, 0);
   transition: all 0.3s;
 }
-/* line 56, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .menu a.real:hover {
   border: 2px solid blue;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 h1 {
   font-family: "Playfair Display";
   font-size: 4rem;
@@ -516,7 +517,12 @@ h1 {
   color: #111;
   font-style: italic;
 }
-/* line 68, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
+h1 a {
+  text-decoration: none;
+  color: #111;
+}
+/* line 74, ../sass/main.scss */
 h1 span {
   display: block;
   font-size: 1.5rem;
@@ -524,20 +530,20 @@ h1 span {
   font-weight: 300;
   opacity: 0.2;
 }
-/* line 76, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 h1 span a.author {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .wrapper {
   width: 100%;
   padding: 1rem 10vw 5rem;
 }
 
-/* line 89, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 iframe {
   width: 80vw;
   height: 690px;
@@ -545,26 +551,37 @@ iframe {
   margin: 1rem 0 3rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 89, ../sass/main.scss */
+  /* line 95, ../sass/main.scss */
   iframe {
     display: none;
   }
 }
 
-/* line 99, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
+.homepage iframe {
+  height: calc(80vw / 1.775);
+}
+@media screen and (max-width: 680px) {
+  /* line 105, ../sass/main.scss */
+  .homepage iframe {
+    display: block;
+  }
+}
+
+/* line 112, ../sass/main.scss */
 h2 {
   font-size: 2.6rem;
   margin-bottom: 0;
   opacity: 0.75;
 }
 @media screen and (max-width: 680px) {
-  /* line 99, ../sass/main.scss */
+  /* line 112, ../sass/main.scss */
   h2 {
     line-height: 2.6rem;
   }
 }
 
-/* line 108, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 h3 {
   font-size: 1.8rem;
   margin-top: -1rem;
@@ -572,40 +589,40 @@ h3 {
   font-weight: normal;
 }
 @media screen and (max-width: 680px) {
-  /* line 108, ../sass/main.scss */
+  /* line 121, ../sass/main.scss */
   h3 {
     margin-top: 0.5rem;
     line-height: 2rem;
   }
 }
 
-/* line 119, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 p {
   font-size: 1.25rem;
   margin-top: -1rem;
   width: 53%;
   line-height: 1.6rem;
 }
-/* line 124, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 p a {
   opacity: 0.5;
   text-decoration: none;
 }
 @media screen and (max-width: 680px) {
-  /* line 119, ../sass/main.scss */
+  /* line 132, ../sass/main.scss */
   p {
     width: 100%;
   }
 }
 
-/* line 133, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 .proto-link {
   display: none;
   opacity: 0.5;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 680px) {
-  /* line 133, ../sass/main.scss */
+  /* line 146, ../sass/main.scss */
   .proto-link {
     display: block;
   }

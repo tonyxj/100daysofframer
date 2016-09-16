@@ -25,6 +25,7 @@ header {
 		padding-left: 2.3rem;
 		h1 {
 			line-height: 3.5rem;
+
 		}
 	}
 }
@@ -42,6 +43,7 @@ header {
 		font-weight: 700;
 		padding: 0rem 0.7rem;
 		border-radius: 0.2rem;
+		border-bottom: 2px solid blue !important;
 	}
 
 	a.current {
@@ -65,6 +67,10 @@ h1 {
 	margin: 0;
 	color: #111;
 	font-style: italic;
+	a {
+		text-decoration: none;
+		color: #111;
+	}
 	span {
 		// text-transform: uppercase;
 		// margin-top: -2rem;
@@ -93,6 +99,13 @@ iframe {
 	margin: 1rem 0 3rem;
 	@media screen and (max-width: $break) {	
 		display: none;
+	}
+}
+
+.homepage iframe {
+	height: calc(80vw / 1.775);
+	@media screen and (max-width: $break) {	
+		display: block;
 	}
 }
 
