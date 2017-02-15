@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=7bece91ecf32b538794fe8f73c6ecee1">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=df60e05e8ec908a0c8ba26a2a04ba1b9"></script>
+		<script src="framer/framer.generated.js?nocache=895eed97cb5d6297173059f74cdc5aae"></script>
+		<script src="framer/framer.modules.js?nocache=55d23ded7169beeb72189865d5739a63"></script>
+		<script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 2;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var allLayers, directionFactor, endAnimation, height, i, j, k, layer, len, margin, remove, scroll, sketch;
+
+  sketch = Framer.Importer.load("imported/scroll-n-click@1x");
+
+  scroll = window.__framerNew("scroll", "3:13-9:0", "#b03e47e6",new ScrollComponent({
+    width: Screen.width,
+    height: Screen.height - 128 - 98,
+    y: 128,
+    superLayer: sketch.content,
+    scrollHorizontal: false,
+    contentInset: {
+      top: 32,
+      bottom: 32
+    }
+  }));
+
+  scroll.content.draggable.options = {
+    friction: 40,
+    tension: 500,
+    tolerance: 1
+  };
+
+  height = 400;
+
+  margin = 32;
+
+  allLayers = [];
+
+  for (i = j = 0; j < 10; i = ++j) {
+    layer = window.__framerNew("layer", "20:13-26:0", "#10dc5b962",new Layer({
+      backgroundColor: "#fff",
+      borderRadius: 8,
+      superLayer: scroll.content,
+      width: scroll.width - 48,
+      height: height,
+      x: 24,
+      y: (height + margin) * i
+    }));
+    layer.style.boxShadow = "0 12px 15px rgba(0,0,0,0.2)";
+    allLayers.push(layer);
+  }
+
+  scroll.content.draggable.directionLock = true;
+
+  scroll.content.draggable.directionLockThreshold = {
+    x: 25,
+    y: 25
+  };
+
+  scroll.content.draggable.on(Events.DirectionLockDidStart, function(event) {
+    var k, len, results;
+    results = [];
+    for (k = 0, len = allLayers.length; k < len; k++) {
+      layer = allLayers[k];
+      if (event.x) {
+        layer.draggable.enabled = false;
+      }
+      if (event.y) {
+        results.push(layer.draggable.enabled = true);
+      } else {
+        results.push(void 0);
+      }
+    }
+    return results;
+  });
+
+  for (k = 0, len = allLayers.length; k < len; k++) {
+    i = allLayers[k];
+    i.draggable.vertical = false;
+    remove = endAnimation = false;
+    directionFactor = 1;
+    i.on(Events.DragMove, function() {
+      if (Math.abs(this.x) > 300 || Math.abs(this.draggable.velocity.x) > 3) {
+        remove = true;
+        if (this.draggable.direction === "left") {
+          directionFactor = -1;
+        }
+        if (this.draggable.direction === "right") {
+          return directionFactor = 1;
+        }
+      }
+    });
+    i.on(Events.DragEnd, function() {
+      var bottomOfPage, l, len1;
+      bottomOfPage = scroll.scrollY > (scroll.content.height - Screen.height);
+      endAnimation = bottomOfPage ? true : false;
+      if (remove === true) {
+        this.animate({
+          properties: {
+            x: Screen.width * directionFactor
+          },
+          time: 0.15
+        });
+        Utils.delay(0.15, (function(_this) {
+          return function() {
+            return _this.destroy();
+          };
+        })(this));
+        for (l = 0, len1 = allLayers.length; l < len1; l++) {
+          i = allLayers[l];
+          if (endAnimation) {
+            Utils.delay(0.12, function() {
+              scroll.scrollToPoint({
+                x: 0,
+                y: scroll.scrollY - height - margin
+              }, true, {
+                curve: "spring",
+                curveOptions: {
+                  tension: 400,
+                  friction: 30,
+                  tolerance: 0.01
+                }
+              });
+              return scroll.content.on(Events.AnimationEnd, function() {
+                return scroll.updateContent();
+              });
+            });
+          }
+          if (i.index > this.index) {
+            i.animate({
+              properties: {
+                y: i.y - height - margin
+              },
+              delay: 0.13,
+              curve: "spring",
+              curveOptions: {
+                tension: 400,
+                friction: 30,
+                tolerance: 0.01
+              }
+            });
+            if (!endAnimation) {
+              i.on(Events.AnimationEnd, function() {
+                return scroll.updateContent();
+              });
+            }
+          }
+        }
+        return remove = false;
+      } else {
+        return this.animate({
+          properties: {
+            x: 24
+          },
+          curve: "spring(200, 40, 0)"
+        });
+      }
+    });
+  }
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>

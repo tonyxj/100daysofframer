@@ -1,0 +1,64 @@
+app.coffee
+framer/backups/backup-2016-06-03 11.51.50.coffee
+framer/backups/backup-2016-06-03 11.54.50.coffee
+framer/backups/backup-2016-06-03 11.55.50.coffee
+framer/backups/backup-2016-06-03 11.56.50.coffee
+framer/backups/backup-2016-06-03 11.57.50.coffee
+framer/backups/backup-2016-06-03 11.58.50.coffee
+framer/backups/backup-2016-06-03 11.59.50.coffee
+framer/backups/backup-2016-06-03 12.02.50.coffee
+framer/backups/backup-2016-06-03 12.10.50.coffee
+framer/backups/backup-2016-06-03 12.11.50.coffee
+framer/backups/backup-2016-06-03 12.12.50.coffee
+framer/backups/backup-2016-06-03 12.13.50.coffee
+framer/backups/backup-2016-06-03 12.14.50.coffee
+framer/backups/backup-2016-06-03 12.15.50.coffee
+framer/backups/backup-2016-06-03 12.16.50.coffee
+framer/backups/backup-2016-06-03 12.17.50.coffee
+framer/backups/backup-2016-06-03 12.18.50.coffee
+framer/backups/backup-2016-06-03 12.19.50.coffee
+framer/backups/backup-2016-06-06 12.42.50.coffee
+framer/backups/backup-2016-06-06 13.41.50.coffee
+framer/backups/backup-2016-06-06 13.42.50.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+imported/page-indicators/images/Layer-content-36424452-3B6A-4A23-AA43-1ABC9FB87A84.png
+imported/page-indicators/images/Layer-iconAlbums-669740E0-5E23-4CAB-8442-62B0F917279B.png
+imported/page-indicators/images/Layer-iconPhotos-B3147D7A-D66F-4F77-AAF9-6CFB68D4DABB.png
+imported/page-indicators/images/Layer-iconShared-61B60753-DBC3-4A3D-8C3B-5D407EBED321.png
+imported/page-indicators/images/Layer-navBar-EA2E254D-4F05-45F5-B120-33C145CE7923.png
+imported/page-indicators/images/Layer-screen-467D259F-657A-4BEC-B60C-B8649B3A5542.png
+imported/page-indicators/images/Layer-statusBar-A86820BD-4D5F-44EF-AEBB-21FEEF30391A.png
+imported/page-indicators/images/Layer-tabBar-32ED0AEA-D4A5-4F4D-847D-EBD640E595BD.png
+imported/page-indicators/layers.json
+imported/page-indicators/layers.json.js
+index.html
+modules/myModule.coffee

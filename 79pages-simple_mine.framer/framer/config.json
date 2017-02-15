@@ -1,0 +1,15 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "sharedPrototype" : 0,
+  "deviceType" : "apple-iphone-6s-silver",
+  "projectId" : "FDCFBBE2-FC1B-460C-8FD1-7EF6FC3C9417",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "foldedCodeRanges" : [
+
+  ],
+  "deviceScale" : "fit"
+}

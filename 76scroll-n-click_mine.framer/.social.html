@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=7bece91ecf32b538794fe8f73c6ecee1">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=df60e05e8ec908a0c8ba26a2a04ba1b9"></script>
+		<script src="framer/framer.generated.js?nocache=9a09e88a2612a86040fdaf4a2c61fd3c"></script>
+		<script src="framer/framer.modules.js?nocache=3045771db9fcba8e3958bb29abd1db32"></script>
+		<script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 3;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var allLayers, fav, favActive, i, j, k, layer, len, scroll, sketch;
+
+  sketch = Framer.Importer.load("imported/scroll-n-click@1x");
+
+  scroll = window.__framerNew("scroll", "3:13-9:0", "#b03e47e6",new ScrollComponent({
+    width: Screen.width,
+    height: Screen.height,
+    y: 128,
+    superLayer: sketch.content,
+    scrollHorizontal: false,
+    contentInset: {
+      top: 32,
+      bottom: 32
+    }
+  }));
+
+  allLayers = [];
+
+  for (i = j = 0; j < 10; i = ++j) {
+    layer = window.__framerNew("layer", "13:13-19:0", "#b124d0fe",new Layer({
+      backgroundColor: "#fff",
+      width: scroll.width - 48,
+      height: 400,
+      x: 24,
+      y: (400 + 32) * i,
+      borderRadius: 6,
+      superLayer: scroll.content
+    }));
+    layer.style.boxShadow = "0 1px 6px rgba(0,0,0,0.2)";
+    fav = window.__framerNew("fav", "21:11-21:57", "#1758ab73f",new Layer({
+      image: "images/fav.png",
+      superLayer: layer
+    }));
+    favActive = window.__framerNew("favActive", "22:17-22:93", "#ddc07124",new Layer({
+      image: "images/favActive.png",
+      superLayer: layer,
+      opacity: 0,
+      scale: 0.25
+    }));
+    fav.center();
+    favActive.center();
+    fav.states.add({
+      active: {
+        opacity: 0,
+        scale: 1
+      }
+    });
+    favActive.states.add({
+      active: {
+        opacity: 1,
+        scale: 1
+      }
+    });
+    fav.states.animationOptions = {
+      time: 0.5
+    };
+    allLayers.push(layer);
+    scroll.on(Events.ScrollMove, function() {
+      var k, len, results;
+      results = [];
+      for (k = 0, len = allLayers.length; k < len; k++) {
+        layer = allLayers[k];
+        results.push(layer.ignoreEvents = true);
+      }
+      return results;
+    });
+    scroll.on(Events.ScrollAnimationDidEnd, function() {
+      return this.on(Events.TouchEnd, function() {
+        var k, len, results;
+        results = [];
+        for (k = 0, len = allLayers.length; k < len; k++) {
+          layer = allLayers[k];
+          results.push(layer.ignoreEvents = false);
+        }
+        return results;
+      });
+    });
+  }
+
+  for (k = 0, len = allLayers.length; k < len; k++) {
+    layer = allLayers[k];
+    layer.on(Events.TouchEnd, function() {
+      if (!scroll.isMoving) {
+        fav = this.subLayers[0];
+        favActive = this.subLayers[1];
+        fav.states.next();
+        favActive.states.next();
+        fav.center();
+        return favActive.center();
+      }
+    });
+  }
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>

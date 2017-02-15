@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=7bece91ecf32b538794fe8f73c6ecee1">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=df60e05e8ec908a0c8ba26a2a04ba1b9"></script>
+		<script src="framer/framer.generated.js?nocache=1795d1166da3c22f97cdec18829eaea2"></script>
+		<script src="framer/framer.modules.js?nocache=7a6675ae453f0ef9d1b0649178e4b4da"></script>
+		<script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 2;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var allCards, amount, card, i, j, k, len, margin, marginHor, marginVer, page, ref;
+
+  amount = 3;
+
+  margin = 80;
+
+  marginHor = margin;
+
+  marginVer = margin * 3;
+
+  allCards = [];
+
+  page = window.__framerNew("page", "6:11-11:69", "#976f3712",new PageComponent({
+    width: Screen.width,
+    height: Screen.height,
+    scrollVertical: false,
+    backgroundColor: "#eee"
+  }));
+
+  for (i = j = 0, ref = amount; 0 <= ref ? j < ref : j > ref; i = 0 <= ref ? ++j : --j) {
+    card = window.__framerNew("card", "13:12-27:0", "#b116b97d",new Layer({
+      backgroundColor: "#fff",
+      borderRadius: 15,
+      width: page.width - (marginHor * 2),
+      height: page.height - (marginVer * 2),
+      x: (Screen.width + marginHor) * i,
+      y: 150,
+      shadowY: 10,
+      shadowBlur: 10,
+      shadowColor: "rgba(0,0,0,0.1)",
+      superLayer: page.content
+    }));
+    allCards.push(card);
+  }
+
+  page.snapToPage(page.content.subLayers[0]);
+
+  page.content.subLayers[0].x = page.content.subLayers[0].x + marginHor;
+
+  page.content.subLayers[amount - 1].x = page.content.subLayers[amount - 1].x - marginHor;
+
+  for (k = 0, len = allCards.length; k < len; k++) {
+    card = allCards[k];
+    card.states.add({
+      active: {
+        shadowY: 50,
+        shadowBlur: 80,
+        shadowColor: "rgba(0,0,0,0.2)",
+        scale: 1.1
+      }
+    });
+    card.on(Events.TouchEnd, function() {
+      return this.states.next();
+    });
+    card.states.animationOptions = {
+      curve: "spring(900, 30, 0)"
+    };
+  }
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>
